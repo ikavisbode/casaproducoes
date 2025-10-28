@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="text-left text-white max-w-3xl px-6">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Casa Produções</h1>
             <p className="text-sm md:text-base leading-relaxed mb-8">
-              A Produtora nasce com o objetivo de viabilizar projetos de diferentes portes. Acreditamos em filmes. Abraçamos todas as linguagens e nossa vontade é dar fruição as ideias.
+              A Produtora nasce com o objetivo de viabilizar projetos de diferentes portes. Acreditamos em fazer filmes. Abraçamos todas as linguagens e nossa vontade é dar fruição as ideias.
             </p>
             <button className="px-4 py-2 border-2 border-white bg-transparent text-white text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer">
               GET STARTED
