@@ -18,9 +18,9 @@ export default function Hero() {
       <Header />
       <motion.div style={{ y }} className="relative h-full">
         <Image
-          src="/images/mountain-landscape.jpg"
+          src="/images/Scan37512.jpg"
           fill
-          alt="Mountain landscape background"
+          alt=""
           style={{ objectFit: "cover" }}
         />
         <div className="absolute inset-0 flex items-center justify-start z-10">

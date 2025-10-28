@@ -5,8 +5,8 @@ export default function Featured() {
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <Image
-          src="/images/woman-horse.jpg"
-          alt="Woman on horse in countryside"
+          src="/images/DSC09621.jpg"
+          alt=""
           width={600}
           height={800}
           className="w-full h-full object-cover"
