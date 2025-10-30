@@ -5,7 +5,7 @@ import { useScroll, useTransform, motion } from "framer-motion"
 import { useRef } from "react"
 
 export default function Section() {
-  const container = useRef()
+  const container = useRef<HTMLDivElement | null>(null)
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start end", "end start"],
@@ -24,11 +24,11 @@ export default function Section() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
+      <h3 className="absolute top-12 right-0 text-white uppercase z-10 text-sm md:text-base lg:text-lg bg-neutral-900 backdrop-blur-sm p-6">
         Anatomia da Produtora
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
+      <p className="absolute bottom-12 right-0 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10 bg-neutral-900/55 backdrop-blur-sm p-6">
         Cada detalhe, necessidade, mudança, queremos que o filme se torne exatamente como ele aparece nas nossas mentes.
       </p>
     </div>
