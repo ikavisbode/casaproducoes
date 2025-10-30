@@ -20,7 +20,7 @@ export default function Section() {
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
-          <Image src="/images/spiral-circles.jpg" fill alt="Abstract spiral circles" style={{ objectFit: "cover" }} />
+          <Image src="/images/IMG_3300_V2.jpg" fill alt="Abstract spiral circles" style={{ objectFit: "cover" }} />
         </motion.div>
       </div>
 
