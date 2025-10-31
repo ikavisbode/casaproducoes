@@ -36,8 +36,8 @@ export default function Footer() {
                 <Instagram size={32} className="inline mb-1 mr-2" />
               </a>
             </div>
-            <h1 className="text-[14vw] sm:text-[16vw] lg:text-[14vw] text-white leading-[0.9] font-bold tracking-tight">
-              CASA<span className="block leading-[0.8]">PRODUÇÕES</span>
+            <h1 className="text-[14vw] sm:text-[16vw] lg:text-[14vw] text-white font-bold tracking-tight py-12">
+              CASA<br/><span className="absolute translate-y-[-40%] md:translate-y-[-50%]">PRODUÇÕES</span>
             </h1>
             <p className="text-left md:text-right text-white text-sm sm:text-base">©copyright Casa Produções</p>
           </div>
