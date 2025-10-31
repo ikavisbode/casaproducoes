@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-end">
-            <div className="flex gap-4 md:gap-8 sm:gap-12 lg:gap-20 md:px-6">
+            <div className="flex gap-4 md:gap-8 sm:gap-12 lg:gap-20 md:px-6 mb-4 sm:mb-6 lg:mb-10">
               <a
                 href="https://www.youtube.com/@ProduçõesCasa"
                 target="_blank"
@@ -36,12 +36,10 @@ export default function Footer() {
                 <Instagram size={32} className="inline mb-1 mr-2" />
               </a>
             </div>
-            <div className="">
-              <h1 className="text-[14vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                CASA PRODUÇÕES
-              </h1>
-              <p className="text-left md:text-right text-white text-sm sm:text-base">©copyright Casa Produções</p>
-            </div>
+            <h1 className="text-[14vw] sm:text-[16vw] lg:text-[14vw] text-white leading-[0.9] font-bold tracking-tight">
+              CASA<span className="block leading-[0.8]">PRODUÇÕES</span>
+            </h1>
+            <p className="text-left md:text-right text-white text-sm sm:text-base">©copyright Casa Produções</p>
           </div>
         </div>
       </div>
