@@ -17,9 +17,9 @@ export default function Featured() {
         <p className="text-2xl lg:text-4xl mb-8">
           Cada um feito com toda a dedicação da nossa equipe, independente de orçamentos ou limitações. Todos feitos com muita atenção.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit">
-          LEARN MORE
-        </button>
+        {/* <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit">
+          
+        </button> */}
       </div>
     </div>
   )
