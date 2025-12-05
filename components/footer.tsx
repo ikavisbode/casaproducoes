@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Instagram, Linkedin, Youtube } from "lucide-react"
+import Link from "next/link";
+import { Instagram, Linkedin, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -36,13 +36,23 @@ export default function Footer() {
                 <Instagram size={32} className="inline mb-1 mr-2" />
               </a>
             </div>
-            <h1 className="text-[14vw] sm:text-[16vw] lg:text-[14vw] text-white font-bold tracking-tight py-12">
+            <div>
+              <img
+                src="/logo-branco-1000.png"
+                srcSet="/logo-branco-1000.png 1000w, /logo-branco-1920.png 1920w"
+                alt="Casa Produções"
+                sizes="(max-width: 600px) 100%, 1000px"
+              />
+            </div>
+            {/* <h1 className="text-[14vw] sm:text-[16vw] lg:text-[14vw] text-white font-bold tracking-tight py-12">
               CASA<br/><span className="absolute translate-y-[-40%] md:translate-y-[-50%]">PRODUÇÕES</span>
-            </h1>
-            <p className="text-left md:text-right text-white text-sm sm:text-base">©copyright Casa Produções</p>
+            </h1> */}
+            <p className="text-left md:text-right text-white text-sm sm:text-base">
+              ©copyright Casa Produções
+            </p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

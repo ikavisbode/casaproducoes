@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { useScroll, useTransform, motion } from "framer-motion"
-import { useRef } from "react"
+import Image from "next/image";
+import { useScroll, useTransform, motion } from "framer-motion";
+import { useRef } from "react";
 
 export default function Section() {
-  const container = useRef<HTMLDivElement | null>(null)
+  const container = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start end", "end start"],
-  })
-  const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"])
+  });
+  const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
 
   return (
     <div
@@ -20,7 +20,12 @@ export default function Section() {
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
-          <Image src="/images/IMG_3300_V2.jpg" fill alt="Abstract spiral circles" style={{ objectFit: "cover" }} />
+          <Image
+            src="/anatomy-1920.jpg"
+            fill
+            alt="Abstract spiral circles"
+            style={{ objectFit: "cover" }}
+          />
         </motion.div>
       </div>
 
@@ -29,8 +34,9 @@ export default function Section() {
       </h3>
 
       <p className="absolute bottom-12 right-0 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10 bg-neutral-900/55 backdrop-blur-sm p-6">
-        Cada detalhe, necessidade, mudança, queremos que o filme se torne exatamente como ele aparece nas nossas mentes.
+        Cada detalhe, necessidade, mudança, queremos que o filme se torne
+        exatamente como ele aparece nas nossas mentes.
       </p>
     </div>
-  )
+  );
 }

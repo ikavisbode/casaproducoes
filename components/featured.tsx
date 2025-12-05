@@ -1,11 +1,11 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Featured() {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0">
       <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
         <Image
-          src="/images/DSC09621.jpg"
+          src="/movies-1000.jpg"
           alt=""
           width={600}
           height={800}
@@ -15,12 +15,13 @@ export default function Featured() {
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
         <h3 className="uppercase mb-4">Nossos Filmes</h3>
         <p className="text-2xl lg:text-4xl mb-8">
-          Cada um feito com toda a dedicação da nossa equipe, independente de orçamentos ou limitações. Todos feitos com muita atenção.
+          Cada um feito com toda a dedicação da nossa equipe, independente de
+          orçamentos ou limitações. Todos feitos com muita atenção.
         </p>
         {/* <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit">
           
         </button> */}
       </div>
     </div>
-  )
+  );
 }
